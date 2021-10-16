@@ -35,7 +35,7 @@ x = np.array([0.1, 0.1, -0.1]) #começo do chute e o valor a ser testado
 
 k = 0 #contador de iteracoes
 max_int  = 50 #numero maximo de interacoes
-E1 = 10**(-4) #erro
+E1 = 10**(-9) #erro
 j_estatico = np.linalg.inv(jf(x))
 while k < 50:
     k += 1
